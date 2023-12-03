@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 const ACTIONS = {
     ADD_TODO: '[TODO] Add Todo',
